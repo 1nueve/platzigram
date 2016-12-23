@@ -1,0 +1,28 @@
+{
+  "name": "platzigram",
+  "version": "0.1.0",
+  "description": "Comparte tus fotos",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1nueve/platzigram.git"
+  },
+  "keywords": [
+    "platzi",
+    "javascript",
+    "js",
+    "frontend"
+  ],
+  "author": "Jossue Galdamez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1nueve/platzigram/issues"
+  },
+  "homepage": "https://github.com/1nueve/platzigram#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
