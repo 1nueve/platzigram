@@ -2,8 +2,13 @@ var express = require("express");
 
 var app = express();
 
+app.set("view engine", "pug");
+
+// hacemos public accesible a todos los usuarios
+app.use(express.static("public"));
+
 app.get("/", function(req, res){
-	res.send("hola platzi")
+	res.render("index")
 })
 
 app.listen(3000, function(err){
