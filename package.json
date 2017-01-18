@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/1nueve/platzigram#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "page": "^1.7.1"
   }
 }
